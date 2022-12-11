@@ -1,0 +1,18 @@
+{
+  "name": "picket-line-discoverer",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "zip -FSr picket-line-discoverer.zip .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Pizzurro",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.42.0",
+    "@octokit/core": "^4.1.0",
+    "json-diff": "^0.5.4",
+    "node-fetch": "^2.6.6"
+  }
+}
